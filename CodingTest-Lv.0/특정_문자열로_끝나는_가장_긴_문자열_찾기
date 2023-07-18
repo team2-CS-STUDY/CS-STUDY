@@ -1,0 +1,31 @@
+## 문제 설명
+
+문자열  `myString`과  `pat`가 주어집니다.  `myString`의 부분 문자열중  `pat`로 끝나는 가장 긴 부분 문자열을 찾아서 return 하는 solution 함수를 완성해 주세요.
+
+----------
+
+##### 제한사항
+
+-   5 ≤  `myString`  ≤ 20
+-   1 ≤  `pat`  ≤ 5
+    -   `pat`은 반드시  `myString`의 부분 문자열로 주어집니다.
+-   `myString`과  `pat`에 등장하는 알파벳은 대문자와 소문자를 구분합니다.
+
+입출력 예
+myString	pat	result
+"AbCdEFG"	"dE"	"AbCdE"
+"AAAAaaaa"	"a"	"AAAAaaaa"
+
+//나의 풀이
+```
+function solution(myString, pat) {
+    if(myString.includes(pat)){
+        const result = myString.slice(0, myString.lastIndexOf(pat)) + pat
+        return result }}
+```
+//다른 사람의 풀이
+// subString - 문자열에서 특정 부분만 골라낼 때 사용하는 메서드
+//https://codechacha.com/ko/javascript-substring-vs-slice/ [메소드 차이]
+```
+const solution = (str, pat) => str.substring(0, str.lastIndexOf(pat)) + pat
+```
