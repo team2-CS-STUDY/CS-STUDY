@@ -148,4 +148,4 @@ class BinarySearchTree {
 ```
   
   
-[참조]([https://velog.io/@porupit0122/JavaScript-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-4-%ED%8A%B8%EB%A6%AC](https://velog.io/@ko9612/JavaScript-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Binary-Search-Tree)https://velog.io/@ko9612/JavaScript-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Binary-Search-Tree)
+[참조](https://velog.io/@ko9612/JavaScript-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-Binary-Search-Tree)
