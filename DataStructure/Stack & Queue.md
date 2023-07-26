@@ -24,7 +24,7 @@
 
 ### JavaScript, 배열을 이용한 간단한 스택 구현
 
-```
+```javascript
 class Stack {
   constructor() {
     this._arr = [];
@@ -76,7 +76,7 @@ stack.pop(); // 3
 
 ### JavaScript, 배열을 이용한 간단한 큐 구현
 
-```
+```javascript
 class Queue {
   constructor() {
     this._arr = [];
