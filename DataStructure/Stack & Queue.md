@@ -16,7 +16,7 @@
 - `isEmpty` : 스택이 비어있는지 확인한다.
 - `isFull` : 스택이 가득 찼는지 확인한다.
 
-![regex](./images/stack.png)
+![stack](./images/stack.png)
 
 ### 예시
 
@@ -24,7 +24,7 @@
 
 ### JavaScript, 배열을 이용한 간단한 스택 구현
 
-```
+```javascript
 class Stack {
   constructor() {
     this._arr = [];
@@ -68,7 +68,7 @@ stack.pop(); // 3
 - `Front` : 큐의 맨 앞에 있는 데이터, 큐의 첫 번째 항목을 조회한다.
 - `Rear` : 큐의 맨 뒤에 있는 데이터, 큐의 마지막 항목을 조회한다.
 
-![regex](./images/queue.png)
+![queue](./images/queue.png)
 
 ### 예시
 
@@ -76,7 +76,7 @@ stack.pop(); // 3
 
 ### JavaScript, 배열을 이용한 간단한 큐 구현
 
-```
+```javascript
 class Queue {
   constructor() {
     this._arr = [];
