@@ -36,7 +36,7 @@ O(n log n)이란 표기법은 n과 log n의 곱으로 나타난다. 합병 정�
 
 ## 5. 자바스크립트로 구현한 예시
 
-![mergesort-3](./images/merge-sort-3.png)
+![mergesort-2](./images/merge-sort.png)
 
 ```js
 // 합병 정렬 알고리즘을 구현한 함수
